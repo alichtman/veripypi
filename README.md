@@ -11,13 +11,13 @@ $ veripypi <PACKAGE_NAME>
 
 #### Motivation
 
-Open-sourced repositories provide a false sense of security. Since the code *is readable*, other developers *have read and audited it*, right? Someone would surely say something if there were really an issue...
+Open-sourced repositories provide a false sense of security. Since the code *is readable*, other developers *must have* read and audited it, right? Someone would surely say something if there were really an issue...
 
-*See [the Bystander Effect](https://en.wikipedia.org/wiki/Bystander_effect).* 
+*(See [the Bystander Effect](https://en.wikipedia.org/wiki/Bystander_effect).)* 
 
-Even when the source code has been thoroughly audited, it's trivial to showcase a clean version of the project on GitHub and a distribute a trojaned package on `PyPi`.
+And even when the source code has been thoroughly audited, it's trivial to showcase a clean version of the project on GitHub and a distribute a trojaned package on `PyPi`.
 
-This project is a PoC to minimize this attack vector. (Although the real solution to this problem is probably more along the lines of enforcing PGP signed releases, but there's a whole lot of controversy surrounding this that I won't delve into here.)
+This is a PoC to minimize this attack vector. (Although the real solution to this problem is probably more along the lines of enforcing PGP signed releases, but there's a whole lot of controversy surrounding this that I won't delve into here.)
 
 #### How it works
 

@@ -7,7 +7,6 @@ class ProjInfo:
 	URL = 'https://github.com/alichtman/veripypi'
 	BUG_REPORT_URL = 'https://github.com/alichtman/veripypi/issues'
 	AUTHOR_EMAIL = 'aaronlichtman@gmail.com'
-	LOGO = """TODO"""
 
 
 ProjInfo = ProjInfo()
