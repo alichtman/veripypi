@@ -15,7 +15,7 @@ Open-sourced repositories provide a false sense of security. Since the code *is 
 
 *(See [the Bystander Effect](https://en.wikipedia.org/wiki/Bystander_effect).)* 
 
-And even when the source code has been thoroughly audited, it's trivial to showcase a clean version of the project on GitHub and a distribute a trojaned package on `PyPi`.
+But, even when the source code has been thoroughly audited, it's trivial to showcase a clean version of the project on GitHub and a distribute a trojaned package on `PyPi`.
 
 This is a PoC to minimize this attack vector. (Although the real solution to this problem is probably more along the lines of enforcing PGP signed releases, but there's a whole lot of controversy surrounding this that I won't delve into here.)
 
